@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+
+    <link
+      rel="shortcut icon"
+      href="src/imagens/pokebola.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/estilos.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/pokebola.png" alt="pokébola" class="pokebola" />
+      <h1 class="titulo">Pokémon Slider</h1>
+    </header>
+
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-pokemons" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+        <li class="cartao fundo1" >
+          <div class="informacoes">
+            <h2 class="nome">Pikachu</h2>
+            <p class="hp">HP 300</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/pikachu.png"
+              alt="Pikachu"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Pikachu, the Mouse Pokémon. An Electric type. Pikachu have pouches on their cheeks that can store electricity, which they release if threatened. Male and female Pikachu have differently shaped tails.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo2">
+          <div class="informacoes">
+            <h2 class="nome">Charizard</h2>
+            <p class="hp">HP 800</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/charizard.png"
+              alt="Charizard"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Charizard, the Flame Pokémon. Charizard is a Flying and Fire type. When competing in intense battles, Charizard's flame becomes more intense as well.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo3 selecionado">
+          <div class="informacoes">
+            <h2 class="nome">Mewtwo</h2>
+            <p class="hp">HP 1200</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/mewtwo.png"
+              alt="Mewtwo"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo4" >
+          <div class="informacoes">
+            <h2 class="nome">Dragonite</h2>
+            <p class="hp">HP 9999</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/dragonite.png"
+              alt="Dragonite"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Dragonite, the Dragon Pokémon. Dragonite is said to live in the sea. With its small wings and large body, it can fly faster than the speed of sound.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+    <script type="text/javascript" src="src/js/vanilla-tilt.js"></script>
+  </body>
+</html>
