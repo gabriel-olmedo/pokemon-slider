@@ -30,12 +30,17 @@
     </header>
 
     <main class="pokemon-slider">
-      <button class="btn-seta btn-voltar">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
         <img src="src/imagens/seta.png" alt="seta voltar" />
       </button>
 
-      <ul class="lista-pokemons" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
-        <li class="cartao fundo1" >
+      <ul
+        class="lista-pokemons"
+        data-tilt
+        data-tilt-glare
+        data-tilt-max-glare="0.8"
+      >
+        <li class="cartao fundo1 selecionado">
           <div class="informacoes">
             <h2 class="nome">Pikachu</h2>
             <p class="hp">HP 300</p>
@@ -52,7 +57,9 @@
           <div class="descricao">
             <h3 class="titulo">Descrição</h3>
             <p class="texto">
-              Pikachu, the Mouse Pokémon. An Electric type. Pikachu have pouches on their cheeks that can store electricity, which they release if threatened. Male and female Pikachu have differently shaped tails.
+              Pikachu, the Mouse Pokémon. An Electric type. Pikachu have pouches
+              on their cheeks that can store electricity, which they release if
+              threatened. Male and female Pikachu have differently shaped tails.
             </p>
           </div>
         </li>
@@ -74,12 +81,14 @@
           <div class="descricao">
             <h3 class="titulo">Descrição</h3>
             <p class="texto">
-              Charizard, the Flame Pokémon. Charizard is a Flying and Fire type. When competing in intense battles, Charizard's flame becomes more intense as well.
+              Charizard, the Flame Pokémon. Charizard is a Flying and Fire type.
+              When competing in intense battles, Charizard's flame becomes more
+              intense as well.
             </p>
           </div>
         </li>
 
-        <li class="cartao fundo3 selecionado">
+        <li class="cartao fundo3">
           <div class="informacoes">
             <h2 class="nome">Mewtwo</h2>
             <p class="hp">HP 1200</p>
@@ -96,12 +105,15 @@
           <div class="descricao">
             <h3 class="titulo">Descrição</h3>
             <p class="texto">
-              Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.
+              Mewtwo is a Pokémon that was created by genetic manipulation.
+              However, even though the scientific power of humans created this
+              Pokémon's body, they failed to endow Mewtwo with a compassionate
+              heart.
             </p>
           </div>
         </li>
 
-        <li class="cartao fundo4" >
+        <li class="cartao fundo4">
           <div class="informacoes">
             <h2 class="nome">Dragonite</h2>
             <p class="hp">HP 9999</p>
@@ -118,16 +130,19 @@
           <div class="descricao">
             <h3 class="titulo">Descrição</h3>
             <p class="texto">
-              Dragonite, the Dragon Pokémon. Dragonite is said to live in the sea. With its small wings and large body, it can fly faster than the speed of sound.
+              Dragonite, the Dragon Pokémon. Dragonite is said to live in the
+              sea. With its small wings and large body, it can fly faster than
+              the speed of sound.
             </p>
           </div>
         </li>
       </ul>
 
-      <button class="btn-seta">
+      <button class="btn-seta" id="btn-avancar">
         <img src="src/imagens/seta.png" alt="seta avançar" />
       </button>
     </main>
     <script type="text/javascript" src="src/js/vanilla-tilt.js"></script>
+    <script type="text/javascript" src="src/js/index.js"></script>
   </body>
 </html>
